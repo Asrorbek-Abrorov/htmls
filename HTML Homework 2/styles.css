@@ -1,0 +1,91 @@
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+#header {
+    background-color: rgb(27, 30, 31);
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px 50px;
+}
+.list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(27, 30, 31);
+}
+
+.list ul li {
+    list-style-type: none;
+    display: inline;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 10px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.list ul li:first-child{
+    padding-left: 25px;
+    font-size: 40px;
+}
+
+.list ul li:nth-child(1){
+    padding-right: 40%;
+}
+
+#showcase {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#showcase h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+#showcase p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+#showcase img {
+    width: 100%;
+    height: auto;
+}
+.text{
+    float: left;
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+}
+.btn {
+    float: left;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.btn a {
+    margin: 15px;
+    padding: 20px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+.testimonials {
+    clear: both; /* Add this to clear floats */
+}
+.container {
+    padding: 4px;
+}

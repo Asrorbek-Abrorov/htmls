@@ -1,0 +1,113 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: #333;
+    width: 100%;
+}
+.d-flex {
+    display: flex;
+    margin-right: 30%;
+}
+.showcase-content{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#showcase h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+#showcase p {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 2;
+}
+#showcase img {
+    width: 100%;
+    height: auto;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.about img {
+    width: 110%;
+    height: auto;
+    display: inline-block;
+}
+
+.about-text {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    z-index: 2;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.contact, .gallery, .footer, .about-text {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.about-text {
+    margin: 5px 30px;
+    margin-right: 5px;
+    padding: 30px;
+    width: 200%;
+    background-color: rgb(246, 241, 234);
+}
+
+.contact .content, .gallery .content, .footer .content {
+    text-align: center;
+}
+
+.contact h1, .gallery h1, .footer h1 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.contact p, .gallery p, .footer p, .about-text p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #666;
+}
+
+.contact {
+    width: 50%;
+    position: relative;
+    display: inline-block;
+    background-color: #f9f9f9;
+}
+
+.gallery {
+    width: 49%;
+    position: relative;
+    display: inline-block;
+    background-color: #eef9f9;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+    padding: 7px;
+    margin: 0;
+    border-radius: 0;
+}
